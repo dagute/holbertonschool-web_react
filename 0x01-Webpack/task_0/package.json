@@ -1,0 +1,31 @@
+{
+  "name": "0x01-webpack",
+  "version": "1.0.0",
+  "description": "0x01. Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagute/holbertonschool-web_react.git"
+  },
+  "keywords": [
+    "Webpack"
+  ],
+  "author": "David Agudelo",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dagute/holbertonschool-web_react/issues"
+  },
+  "homepage": "https://github.com/dagute/holbertonschool-web_react#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
