@@ -1,22 +1,26 @@
+:root {
+  --main-color: #e01d3f;
+}
+
 .Notifications {
-    border: 1px dashed #e1354b;
-    padding: 1rem;
-    position: relative;
-    margin: 1rem;
+  border: 3px dashed var(--main-color);
+  padding: 10px;
+  margin-bottom: 20px;
 }
-  
-.close-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border: none;
-    background-color: transparent;
+
+.Notifications button img {
+  width: 10px;
 }
-  
-ul li[data-priority='default'] {
-    color: blue;
+
+.Notifications p {
+  margin: 0;
+  margin-top: 15px;
 }
-  
-ul li[data-priority='urgent'] {
-    color: red;
+
+[data-priority="default"] {
+  color: blue;
+}
+
+[data-priority="urgent"] {
+  color: red;
 }
